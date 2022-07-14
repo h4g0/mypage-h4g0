@@ -1,0 +1,24 @@
+.tableReceptions {
+    margin: 3% 0%;
+}
+
+.tableContainerReceptions {
+    padding: 0% 20%;
+}
+
+.btnInfo {
+    color: #0d6efd;
+    background-color: white;
+}
+
+.receptionBadgeContainer {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.receptionBadgeContainer > * {
+    font-size: 1.25em;
+
+}

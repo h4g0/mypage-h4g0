@@ -1,0 +1,22 @@
+.WorkPlaceMenu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 3%;
+    background-color: aliceblue;
+  }
+
+  .WorkPlaceMenu .btn-primary {
+    font-size: 22px;
+  }
+
+  .SearchForm {
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 25%;
+    
+    margin-top: 1rem;
+  }
+
+  .SearchForm .form-control {
+    width: 70%;
+  }

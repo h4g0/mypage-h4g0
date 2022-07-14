@@ -1,0 +1,57 @@
+.inputFile {
+    padding: 2% 0% 2% 25%;
+    margin-bottom: 1%;
+}
+
+.tableContainer {
+    padding: 0% 5%;
+}
+
+.send {
+    margin-left: 2%;
+}
+
+.form-control-file {
+    width: 40%;
+}
+
+.submitContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.submitContainer > div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.submitContainer > div:nth-child(2) > * {
+    white-space: nowrap;
+    
+}
+
+.submitContainer > div:nth-child(1) > * {
+    margin-bottom: 0%;
+    padding: 2% 1rem;
+    white-space: pre-wrap;
+}
+
+.inputsContainer {
+    display: flex;
+    margin-bottom: 1%;
+}
+
+.inputsContainer > input:nth-child(1) {
+    width: 30%;
+    margin-right: 5%;
+}
+
+.inputsContainer > select:nth-child(2) {
+    width: 15%;
+}
+
+.notes {
+    margin-bottom: 2%;
+}

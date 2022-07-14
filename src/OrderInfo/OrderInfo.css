@@ -1,0 +1,41 @@
+.TableContainer {
+    display: flex;
+    padding: 3% 15%;
+}
+
+tr > td:nth-child(1) {
+    text-transform: capitalize;
+}
+
+.tableInput {
+    border: none;
+    width: 100%;
+}
+
+.tableInput:target, .tableInput:visited, .tableInput:focus, .tableInput:focus-visible   {
+    border: none;
+    outline: none;
+}
+
+.btnSave {
+    display: none;
+    margin-left: 2%;
+}
+
+.btnCancel {
+    display: none;
+    margin-left: 2%;
+}
+
+.editParameters {
+    display: flex;
+    padding: 2% 15% 0;
+    justify-content: flex-end;
+}
+
+.notificationSave {
+    position: fixed;
+    bottom: 3%;
+    right: 1%;
+    max-width: 250px;
+}
