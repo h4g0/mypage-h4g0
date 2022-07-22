@@ -1,4 +1,5 @@
 import Login from './Login/Login'
+import "./App.css"
 import CreateAccount from './CreateAccount/CreateAccount';
 import { Provider } from 'react-redux'
 import loginStore from './UpdateState/Store'
@@ -15,9 +16,9 @@ import ReceptionInfo from './Receptions/ReceptionInfo';
 
 function App() {
   return (
-    <Provider store={loginStore} >
+    <div className='App'>
        <Login></Login>
-    </Provider>
+    </div>
    
   );
 }

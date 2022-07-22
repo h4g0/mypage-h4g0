@@ -1,3 +1,5 @@
+* {background-color: #3366cc}
+
 .login-div-external {
     border-radius: 25px;
     position: absolute;
@@ -10,6 +12,15 @@
     background-color: lightblue;
 }
 
+.profilePic {
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: burlywood;
+    border-style:groove;
+}
+
 .login-div-internal {
     border-radius: 25px;
     position: absolute;
@@ -19,7 +30,7 @@
     margin-left: -250px;
     width: 500px;
     height: 350px;
-    background-color: white;
+    background-color: #00ffff	;
 }
 
 .login-message {
@@ -71,7 +82,7 @@
     position: absolute;
     left: 287.5px;
     top: 200px;
-    background-color: lightblue;
+    background-color: #3366cc    ;
     cursor: pointer;
 }
 
@@ -99,18 +110,19 @@
 
 .LoginContainer {
     margin-top: 100px;
+    margin-left: 15%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     width: 100%;
     height: 100%;
-    align-items: center;
-    background-color: white;
+    align-items: left;
+   
 }
 
 
 
 .LoginContainer  h1 {
-    margin-right: 100px;
+    padding-right: 10%;
     color: burlywood;
     font-family: serif;
 
@@ -129,11 +141,10 @@
     width: 100%;
     height: 100%;
     margin-top: 50px;
-    padding-right: 25%;
-    padding-left: 25%;
+    padding-right: 15%;
+    padding-left: 15%;
     align-items: center;
     font-family: serif;
-    background-color: white;
     color: burlywood;
     display: table;
 
@@ -159,11 +170,13 @@
     color: burlywood;
     border-color: burlywood;
     margin-left: 20px;
+    margin-top: 10px;
     border-radius: 15px;
     border-style:  solid;
     font-family: serif;
     font-size: 20px;
-    background-color: white;
+    background-color: #3366cc    ;
+
 
 }
 

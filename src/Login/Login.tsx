@@ -5,6 +5,7 @@ import { newLogin,changePassword,changeUser,changeMenu, editOrder } from '../Upd
 import Menus from './../Menus/Types'
 import { Form, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import hugo from "./../hugo.jpg"
 
 import {
     BrowserRouter as Router,
@@ -55,16 +56,21 @@ University of Minho</p>
 
                 function Publications(props: any) {
                     return <><div className="NewAccountContainer">
-                    <p>Linear Programming Meets Block-based Languages Hugo Gião, Rui Pereira, Jácome Cunha
-IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC’21)</p>       
+                                      <a href="https://h4g0.github.io/gc2022.pdf">  <p>A model-driven approach for DevOps Hugo Gião IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC’22) </p></a>
+
+                                      <a href="https://h4g0.github.io/LPBlocks___A_Block_based_Language_for_LinearProgramming.pdf">    <p>LPBlocks - A Block-based Language for Linear Programming - Master thesis supervised by
+Jácome Cunha and co-supervised by Rui Pereira,</p> </a>
 
 
-                <p>Towards a Block-based Language for Linear Programming? Hugo Gião, Rui Pereira, Jácome
-Cunha 12th National Symposium of Informatics (INForum’21)</p> 
+<a href="https://h4g0.github.io/INForum21_LPBlocks__Linear_Programming_Meets_Block_basedLanguages.pdf">   <p>Towards a Block-based Language for Linear Programming? Hugo Gião, Rui Pereira, Jácome
+Cunha 12th National Symposium of Informatics (INForum’21)</p> </a>
 
-                <p>LPBlocks - A Block-based Language for Linear Programming - Master thesis supervised by
-Jácome Cunha and co-supervised by Rui Pereira,</p>
-                    <p>A model-driven approach for DevOps Hugo Gião IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC’22)</p>
+<a href="https://h4g0.github.io/VLHCC21_LPBlocks__Linear_Programming_Meets_Block_basedLanguages.pdf">    <p>Linear Programming Meets Block-based Languages Hugo Gião, Rui Pereira, Jácome Cunha
+IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC’21)</p>   </a>    
+
+
+
+             
 </div> 
                     <p> 
 </p>
@@ -74,46 +80,94 @@ Jácome Cunha and co-supervised by Rui Pereira,</p>
                 function Bio(props: any) {
                     return <><div className="NewAccountContainer">
                     <p>
-                    Hi, my name is Hugo da Gião, I am currently doing research at the intersection of DevOps and Model-driven engineering, and i am a researcher at HASLab/INESC TEC. I am also a Ph.D. student in Informatics Engineering at FEUP working on a thesis titled "A Model-driven approach to DevOps" whose end goal is to research methodologies and tools that would allow developers to create different DevOps pipelines without resorting to the use of specific tools. I also did research in the field of visual languages where I worked on creating a visual language to allow non-technical users to solve optimization problems. </p>     
+                    Hi, my name is Hugo da Gião, I am currently doing research at the intersection of DevOps and Model-driven engineering, and i am a researcher at HASLab/INESC TEC. I am also a Ph.D. student in Informatics Engineering at FEUP working on a thesis titled "A Model-driven approach to DevOps" whose end goal is to research methodologies and tools that would allow developers to create different DevOps pipelines without resorting to the use of specific tools. I also did research in the field of visual languages where I worked on creating a visual language to allow non-technical users to solve optimization problems.
+                    </p>
                     <p>My CV can accessed <a href="https://h4g0.github.io/cv.pdf">here</a>
 .</p>
+
+<img className="profilePic" src={hugo}></img>
+
 
                        </div> </>
         
         }
+
+        function Interests(props: any) {
+            return <><div className="NewAccountContainer">
+            <p>
+            My current research interests are the following: </p>     
+         <ul>
+            <li>
+            Software engineering
+            </li>
+            <li>
+                DevOps
+            </li>
+            <li>
+                Model-driven software engineering
+            </li>
+            <li>
+                Human-centered computing
+            </li>
+            <li>
+                Visual languages
+            </li>
+         </ul>
+
+               </div> </>
+
+}
                 
               
 
     return (
         <Router>
-          <div className="LoginContainer">
-            <h1 >Hugo Afonso da Gião</h1>
+        
+
+
+
+                <div className="LoginContainer">
+
+               
+                <h1 >Hugo da Gião</h1>
+
             
-            <Link to="/Bio">            
-            
-            <button>Bio</button>
 
-            </Link>
+                <Link to="/Bio">            
 
-            <Link to="/Publications">            
-            
-            <button>Publications</button>
+                <button>Bio</button>
 
-            </Link>
+                </Link>
 
-            <Link to="/Education">            
-            
-            <button>Education</button>
+                <Link to="/Interests">            
 
-            </Link>
-           </div>
-           
-          
-            <Routes>        
+                <button>Research Interests</button>
+
+                </Link>
+
+                <Link to="/Publications">            
+
+                <button>Publications</button>
+
+                </Link>
+
+                <Link to="/Education">            
+
+                <button>Education</button>
+
+                </Link>
+                </div>
+
+
+         
+                <Routes>        
+
             
             <Route path="/" element={<Bio />} />
 
             <Route path="Bio" element={<Bio />} />
+
+            <Route path="Interests" element={<Interests />} />
 
             
             <Route path="Publications" element={<Publications />} />
