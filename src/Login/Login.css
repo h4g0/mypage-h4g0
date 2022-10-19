@@ -1,4 +1,4 @@
-* {background-color: #3366cc}
+* {background-color: #2f71f3}
 
 .login-div-external {
     border-radius: 25px;
@@ -9,7 +9,6 @@
     margin-left: -350px;
     width: 700px;
     height: 500px;
-    background-color: lightblue;
 }
 
 .profilePic {
@@ -17,7 +16,7 @@
     margin-bottom: 20px;
     border-radius: 20px;
     border-width: 4px;
-    border-color: burlywood;
+    border-color: white;
     border-style:groove;
 }
 
@@ -30,7 +29,6 @@
     margin-left: -250px;
     width: 500px;
     height: 350px;
-    background-color: #00ffff	;
 }
 
 .login-message {
@@ -82,12 +80,10 @@
     position: absolute;
     left: 287.5px;
     top: 200px;
-    background-color: #3366cc    ;
     cursor: pointer;
 }
 
 .login-login-button:hover {
-    background-color: blue;
     color: wheat;
 }
 
@@ -102,7 +98,6 @@
     position: absolute;
     left: 62.5px;
     top: 200px;
-    background-color: lightblue;
     cursor: pointer;
 }
 
@@ -123,7 +118,7 @@
 
 .LoginContainer  h1 {
     padding-right: 10%;
-    color: burlywood;
+    color: white;
     font-family: serif;
 
 }
@@ -145,7 +140,7 @@
     padding-left: 15%;
     align-items: center;
     font-family: serif;
-    color: burlywood;
+    color: white;
     display: table;
 
 }
@@ -154,7 +149,7 @@
 .NewAccountContainer a{
     
     font-family: serif;
-    color: burlywood;
+    color: white;
 
 }
 
@@ -167,19 +162,18 @@
 
 .LoginContainer button {
 
-    color: burlywood;
-    border-color: burlywood;
+    color: white;
+    border-color: white;
     margin-left: 20px;
     margin-top: 10px;
     border-radius: 15px;
     border-style:  solid;
     font-family: serif;
     font-size: 20px;
-    background-color: #3366cc    ;
 
 
 }
 
 .LoginContainer button:hover {
-    color: #800000	;
+    color: #5a0000	;
 }
