@@ -1,10 +1,5 @@
 import './Login.css'
-import { get_token } from './get_token'
-import { useSelector,useDispatch } from 'react-redux'
-import { newLogin,changePassword,changeUser,changeMenu, editOrder } from '../UpdateState/Actions'
-import Menus from './../Menus/Types'
-import { Form, Button } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import hugo from "./../hugo.jpg"
 
 import {
@@ -13,9 +8,7 @@ import {
     Link,
     useParams,
     Routes,
-    useNavigate,
   } from "react-router-dom";
-import { useReducer } from 'react'
 
 
 export function Login(this: any, props: any) {
@@ -85,7 +78,7 @@ IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC’21)</p>
                     <p>My CV can accessed <a href="https://h4g0.github.io/cv.pdf">here</a>
 .</p>
 
-<img className="profilePic" src={hugo}></img>
+<img className="profilePic" src={hugo} alt="profile"></img>
 
 
                        </div> </>
