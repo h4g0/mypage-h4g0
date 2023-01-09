@@ -124,12 +124,10 @@ IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC’21)</p>
 
                 <div className="LoginContainer">
 
-               
+               <div>
                 <h1 >Hugo da Gião</h1>
-
-            
-
-                <Link to="/Bio">            
+   
+                    <Link to="/Bio">            
 
                 <button>Bio</button>
 
@@ -152,7 +150,12 @@ IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC’21)</p>
                 <button>Education</button>
 
                 </Link>
-                </div>
+            </div>
+               </div>
+               
+
+            
+
 
 
          
