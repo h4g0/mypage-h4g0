@@ -1,4 +1,4 @@
-* {background-color: #2f71f3}
+* {background-color: #084073}
 
 
 .profilePic {
@@ -6,7 +6,7 @@
     margin-bottom: 20px;
     border-radius: 20px;
     border-width: 4px;
-    border-color: white;
+    border-color: lightsalmon;
     border-style:groove;
 }
 
@@ -31,7 +31,7 @@
 
 .LoginContainer  h1 {
 
-    color: white;
+    color: lightsalmon;
 
     font-family: serif;
 
@@ -51,7 +51,7 @@
     font-family: serif;
     color: white;
     display: table;
-
+    
 }
 
 
