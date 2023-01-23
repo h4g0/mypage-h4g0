@@ -69,6 +69,25 @@ IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC’21)</p>
 </p>
     </>
                 }
+
+
+                function Events(props: any) {
+                                        return <><div className="NewAccountContainer">
+                                                      
+
+
+                    <a href="https://dei.fe.up.pt/inforum23/">   <p>Web and divulgation @ INForum’23</p> </a>
+
+                   
+
+
+                                
+                    </div> 
+                                        <p> 
+                    </p>
+                        </>
+                }
+                
                 
                 function Bio(props: any) {
                     return <><div className="NewAccountContainer">
@@ -150,6 +169,12 @@ IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC’21)</p>
                 <button>Education</button>
 
                 </Link>
+
+                <Link to="/Events">            
+
+                <button>Event organization</button>
+
+                </Link>
             </div>
                </div>
                
@@ -172,6 +197,9 @@ IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC’21)</p>
             <Route path="Publications" element={<Publications />} />
 
             <Route path="Education" element={<Educaton />} />
+
+
+            <Route path="Events" element={<Events />} />
 
             </Routes>
 
