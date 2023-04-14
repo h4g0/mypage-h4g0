@@ -146,31 +146,31 @@ IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC’21)</p>
                <div>
                 <h1 >Hugo da Gião</h1>
    
-                    <Link to="/Bio">            
+                    <Link to="/bio">            
 
                 <button>Bio</button>
 
                 </Link>
 
-                <Link to="/Interests">            
+                <Link to="/interests">            
 
                 <button>Research Interests</button>
 
                 </Link>
 
-                <Link to="/Publications">            
+                <Link to="/publications">            
 
                 <button>Publications</button>
 
                 </Link>
 
-                <Link to="/Education">            
+                <Link to="/education">            
 
                 <button>Education</button>
 
                 </Link>
 
-                <Link to="/Events">            
+                <Link to="/events">            
 
                 <button>Event organization</button>
 
@@ -189,17 +189,17 @@ IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC’21)</p>
             
             <Route path="/" element={<Bio />} />
 
-            <Route path="Bio" element={<Bio />} />
+            <Route path="bio" element={<Bio />} />
 
-            <Route path="Interests" element={<Interests />} />
+            <Route path="interests" element={<Interests />} />
 
             
-            <Route path="Publications" element={<Publications />} />
+            <Route path="publications" element={<Publications />} />
 
-            <Route path="Education" element={<Educaton />} />
+            <Route path="education" element={<Educaton />} />
 
 
-            <Route path="Events" element={<Events />} />
+            <Route path="events" element={<Events />} />
 
             </Routes>
 
